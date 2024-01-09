@@ -3,11 +3,11 @@
 ;@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-   font-family: 'android';
-   src: url('/style/idroid.otf') format('opentype');
+  font-family: 'android';
+  src: url('/style/idroid.otf') format('opentype');
 
-   
-   font-weight: normal;
+  
+  font-weight: normal;
 }
 
   :root {
@@ -22,7 +22,7 @@
 
     --fonte-padao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: 'android';
+    --fonte-android: 'android', Arial;
  }
 
  * {

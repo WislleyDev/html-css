@@ -19,6 +19,7 @@
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
+    transition-duration: 1s;
  }
 
  header {
@@ -57,6 +58,10 @@
     font-size: 3.5vw;
  }
 
+ section > p {
+    padding-bottom: 2em;
+ } 
+
  section.nomal {
     background-color: white;
  }
@@ -64,12 +69,25 @@
  section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.699);
+    background-size: cover;
+    background-attachment: fixed;
  }
 
  section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.513);
+    text-shadow: 2px 2px black;
+ }
+
+ #img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+ }
+
+ #img02{
+    background-image: url('../imagens/background002.jpg');
  }
 
  footer {
